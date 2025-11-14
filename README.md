@@ -231,17 +231,13 @@ Three views:
 
 ---
 
-## 🖼 Screenshots (Add your own)
-```
-/screenshots/dashboard.png
-/screenshots/compare.png
-/screenshots/about.png
+## 🖼 Screenshots 
 ```
 
----
 
 ## 🚀 Future Enhancements
-- Candlestick chart  
+- Candlest<img width="1920" height="1080" alt="Screenshot (621)" src="https://github.com/user-attachments/assets/ee06c8c7-b915-47d1-987e-bcb7f14b87bf" />
+ick chart  
 - MACD / RSI / EMA indicators  
 - Realtime stock API  
 - Database support  
