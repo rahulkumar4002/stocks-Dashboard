@@ -36,11 +36,11 @@ This dashboard supports:
 - Smooth charts with animations  
 - Compare mode with dual line charts  
 - Loading screen  
-- Responsive design  
+- Responsive design 
 
----
 
 ## 📂 Folder Structure
+
 
 ```
 STOCKS_DASHBOARD/
@@ -198,19 +198,12 @@ Three views:
 
 ## ⚠ Common Issues & Fixes
 
-### ❌ “Frontend dropdown empty”
-✔ Fix → Run frontend through **Live Server**, NOT local file.
-
----
 
 ### ❌ CORS / Fetch error
 - Ensure backend running on `9000`
 - Check `API_BASE = "http://127.0.0.1:9000"` inside script.js
 
 ---
-
-### ❌ Compare/Sidebar not switching views
-- Use the latest sidebar navigation logic inside `script.js`
 
 ---
 
@@ -230,12 +223,18 @@ Three views:
 - Chart.js  
 
 ---
+## vedio demo
+
+
+
+https://github.com/user-attachments/assets/c6500f63-53c0-4c47-a1ca-d1c5d1ac1334
+
 
 ## 🖼 Screenshots 
 1.single mode - 2.compare mode
 <img width="1920" height="1080" alt="Screenshot (621)" src="https://github.com/user-attachments/assets/2f54514f-697e-4f2d-92ac-69d326a0a9d5" />
+<img width="1920" height="1080" alt="Screenshot (622)" src="https://github.com/user-attachments/assets/7012ce73-5516-4d0e-b4e6-135abfc8c90d" />
 
-<img width="1920" height="1080" alt="Screenshot (620)" src="https://github.com/user-attachments/assets/8745a78e-52b7-4651-9163-aa405488aeb3" />
 
 
 
