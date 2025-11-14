@@ -233,8 +233,9 @@ Three views:
 
 ## 🖼 Screenshots 
 1.single mode - 2.compare mode
-```<img width="1920" height="1080" alt="Screenshot (621)" src="https://github.com/user-attachments/assets/1df04783-c01b-48c1-96cb-a4291a27facc" /> <img width="1920" height="1080" alt="Screenshot (620)" src="https://github.com/user-attachments/assets/ce364665-ab9c-4377-94d4-30cb0ac2a824" />
+<img width="1920" height="1080" alt="Screenshot (621)" src="https://github.com/user-attachments/assets/2f54514f-697e-4f2d-92ac-69d326a0a9d5" />
 
+<img width="1920" height="1080" alt="Screenshot (620)" src="https://github.com/user-attachments/assets/8745a78e-52b7-4651-9163-aa405488aeb3" />
 
 
 
