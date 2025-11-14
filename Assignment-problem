@@ -1,0 +1,94 @@
+🚀 Internship Assignment — Stock Data Intelligence Dashboard
+
+________________________________________
+🎯 Objective
+Build a mini financial data platform that demonstrates your ability to:
+•	Collect and clean real or mock stock market data
+•	Build REST APIs using Python
+•	Visualize insights through simple charts
+•	Apply your creativity and analytical thinking
+________________________________________
+⚙️ Tech Stack (Preferred)
+•	Language: Python
+•	Backend Framework: FastAPI / Flask
+•	Database: PostgreSQL / SQLite
+•	Libraries: Pandas, NumPy, Requests, Matplotlib / Plotly / Chart.js
+•	Frontend (Bonus): HTML + JS / React
+•	Deployment (Optional): Render / Oracle Cloud / GitHub Pages
+
+
+
+________________________________________
+🧩 Assignment Tasks
+Part 1 — Data Collection & Preparation
+Collect stock market data using any one or more methods:
+1.	Download daily NSE/BSE data (e.g., bhavcopy CSVs)
+2.	Fetch data using public APIs (like yfinance, Alpha Vantage, or any open source)
+3.	Clean and organize it with Pandas
+Perform the following transformations:
+•	Handle missing values and incorrect formats
+•	Convert date columns properly
+•	Add calculated metrics:
+o	Daily Return = (CLOSE - OPEN) / OPEN
+o	7-day Moving Average
+o	52-week High/Low
+💡 Creativity Tip:
+Add one custom metric or analysis — for example:
+•	Correlation between two companies
+•	A volatility score
+•	A mock “sentiment” index
+________________________________________
+Part 2 — Backend API Development
+Create REST APIs for the following functionalities:
+Endpoint	Method	Description
+/companies	GET	Returns a list of all available companies
+/data/{symbol}	GET	Returns last 30 days of stock data
+/summary/{symbol}	GET	Returns 52-week high, low, and average close
+/compare?symbol1=INFY&symbol2=TCS	GET	(Bonus) Compare two stocks’ performance
+💡 Add Swagger docs (FastAPI) or Postman collection if possible.
+________________________________________
+Part 3 — Visualization Dashboard (Bonus but Recommended)
+Build a simple webpage or dashboard that:
+•	Displays a list of companies on the left
+•	Shows a chart of closing prices when one is clicked
+(Use Chart.js, Plotly, or any library)
+🎨 Extra Ideas to Shine:
+•	Add filters like “last 30 days”, “last 90 days”, “compare two stocks”
+•	Show key insights such as Top Gainers / Losers
+•	Add a “prediction” line using a basic ML model (optional)
+________________________________________
+Part 4 — Optional Add-ons (For Outstanding Applicants)
+Go beyond the basics and impress us with:
+•	☁️ Deployment (Render / Oracle / GitHub Pages)
+•	🧠 AI or ML feature (e.g., simple price prediction)
+•	🧩 Dockerization for your backend
+•	⚡ Caching or async API handling
+________________________________________
+📊 Evaluation Criteria
+Category	Weight	Description
+Python & Data Handling	30%	Clean, efficient, well-structured code
+API Design & Logic	25%	REST endpoints, clarity, correctness
+Creativity in Data Insights	15%	Original thought and added value
+Visualization & UI	15%	Clear, functional, visually appealing
+Documentation	10%	README, setup steps, explanations
+Bonus / Deployment	5%	Cloud, AI, Docker, or unique innovation
+________________________________________
+📦 Submission Guidelines
+•	Upload your project on GitHub
+Include:
+o	app.py or main.py
+o	requirements.txt
+o	README.md explaining setup, logic, and insights
+Optional:
+•	Live deployed link (if hosted)
+•	Short video (2–3 min) demo of your project
+🕒 Submission Deadline: Within 5–7 days of receiving this assignment.
+________________________________________
+🏁 Outcome
+Candidates who demonstrate:
+•	Solid Python + Data foundation
+•	Clean API structure
+•	Creative problem-solving
+•	Optional visualization or AI integrations
+will be shortlisted for the internship and may get extended opportunities in real fintech and AI-based projects at Jarnox.
+
