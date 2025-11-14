@@ -232,11 +232,15 @@ Three views:
 ---
 
 ## 🖼 Screenshots 
-```
+1.single mode - 2.compare mode
+```<img width="1920" height="1080" alt="Screenshot (621)" src="https://github.com/user-attachments/assets/1df04783-c01b-48c1-96cb-a4291a27facc" /> <img width="1920" height="1080" alt="Screenshot (620)" src="https://github.com/user-attachments/assets/ce364665-ab9c-4377-94d4-30cb0ac2a824" />
+
+
+
 
 
 ## 🚀 Future Enhancements
-- Candlest<img width="1920" height="1080" alt="Screenshot (621)" src="https://github.com/user-attachments/assets/ee06c8c7-b915-47d1-987e-bcb7f14b87bf" />
+
 ick chart  
 - MACD / RSI / EMA indicators  
 - Realtime stock API  
