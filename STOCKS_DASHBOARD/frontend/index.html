@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Stock Dashboard</title>
+
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="theme3">
+
+  <!-- Cursor trail -->
+  <div id="cursor-trail"></div>
+
+  <!-- Loading Screen -->
+  <div id="loadingOverlay" class="loading-overlay">
+    <div class="loader">
+      <div class="ring"></div>
+      <div class="ring"></div>
+      <div class="ring"></div>
+      <p>Fetching market data...</p>
+    </div>
+  </div>
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="logo"></div>
+      <div class="title">Stocks</div>
+    </div>
+
+    <nav>
+      <button class="nav-btn active" data-view="dashboard">Dashboard</button>
+      <button class="nav-btn" data-view="compare"></button>
+      <button class="nav-btn" data-view="about"> WELCOME TO STOCKS Dashboard</button>
+    </nav>
+
+    <div class="sidebar-footer">
+      <small>Built for: Internship</small>
+    </div>
+  </aside>
+
+  <main class="main">
+    <!-- Header -->
+    <header class="topbar">
+      <div class="top-left">
+        <h1>📈 Stock Dashboard</h1>
+      </div>
+      <div class="top-right">
+        <button id="downloadBtn" class="btn">Download Chart</button>
+        <button id="refreshBtn" class="btn ghost">Refresh</button>
+      </div>
+    </header>
+
+    <section class="content">
+
+      <!-- Controls -->
+      <div class="controls">
+        <div class="control-block">
+          <label>Select Mode</label>
+          <div class="mode-switch">
+            <label><input type="radio" name="mode" value="single" checked> Single</label>
+            <label><input type="radio" name="mode" value="compare"> Compare</label>
+          </div>
+        </div>
+
+        <div class="control-block">
+          <label>Company A</label>
+          <select id="companySelectA"><option value="">Select Company</option></select>
+        </div>
+
+        <div class="control-block hidden" id="compareBlock">
+          <label>Company B</label>
+          <select id="companySelectB"><option value="">Select Company</option></select>
+        </div>
+
+        <div class="control-block">
+          <label>Range</label>
+          <select id="rangeSelect">
+            <option value="30">Last 30 days</option>
+            <option value="90">Last 90 days</option>
+            <option value="365">Last 1 year</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Summary Cards -->
+      <div class="summary-row">
+        <div class="card">
+          <h4>52-Week High</h4>
+          <p id="highValue">—</p>
+        </div>
+        <div class="card">
+          <h4>52-Week Low</h4>
+          <p id="lowValue">—</p>
+        </div>
+        <div class="card">
+          <h4>Avg Close</h4>
+          <p id="avgValue">—</p>
+        </div>
+      </div>
+
+      <!-- Chart -->
+      <div id="chart-container" class="chart-wrap">
+        <canvas id="stockChart"></canvas>
+      </div>
+
+      <!-- About Section -->
+      <div class="info-row">
+        <div class="info">
+          <h3>About This Dashboard</h3>
+          <p>
+            This is a neon AI-themed stock visualisation dashboard built using
+            FastAPI + JS + Chart.js with premium animations, compare mode,
+            neon effects and downloadable charts.
+          </p>
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+<!-- python -m http.server 5500 -->
